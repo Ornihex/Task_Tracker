@@ -8,36 +8,36 @@ How to use:
 
 Add a new task
 ```
-task_cli add <description of your task>
+task-cli add <description of your task>
 ```
 
 Update the task
 ```
-task_cli update <ID of task> <New description>
+task-cli update <ID of task> <New description>
 ```
 
 Update the task status
 ```
-task_cli mark-in-progress <ID>
-task_cli mark-done <ID>
-task_cli mark-todo <ID>
-task_cli mark todo <ID>
-task_cli mark done <ID>
-task_cli mark in-progress <ID>
-task_cli mark <Custom status> <ID>
+task-cli mark-in-progress <ID>
+task-cli mark-done <ID>
+task-cli mark-todo <ID>
+task-cli mark todo <ID>
+task-cli mark done <ID>
+task-cli mark in-progress <ID>
+task-cli mark <Custom status> <ID>
 ```
 
 Delete the task
 ```
-task_cli delete <ID>
+task-cli delete <ID>
 ```
 
 Listing all tasks
 ```
-task_cli list
+task-cli list
 ```
 
 Listing task by status
 ```
-task_cli <status>
+task-cli <status>
 ```

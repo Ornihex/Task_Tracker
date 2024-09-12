@@ -9,7 +9,7 @@ readme = "README.md"
 python = "^3.12"
 
 [tool.poetry.scripts]
-task_cli = 'task_tracker.main:main'
+task-cli = 'task_tracker.main:main'
 
 
 [build-system]
